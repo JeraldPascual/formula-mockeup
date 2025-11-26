@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Red Bull Racing",
+    "color": "#3671C6",
+    "drivers": ["Max Verstappen", "Yuki Tsunoda"],
+    "championships": 7,
+    "base": "Milton Keynes, UK",
+    "carImage": "https://media.formula1.com/image/upload/c_lfill,w_3392/q_auto/v1740000000/common/f1/2025/redbullracing/2025redbullracingcarright.webp"
+  },
+  {
+    "name": "Ferrari",
+    "color": "#E8002D",
+    "drivers": ["Charles Leclerc", "Lewis Hamilton"],
+    "championships": 16,
+    "base": "Maranello, Italy",
+    "carImage": "https://media.formula1.com/image/upload/c_lfill,w_3392/q_auto/v1740000000/common/f1/2025/ferrari/2025ferraricarright.webp"
+  },
+  {
+    "name": "McLaren",
+    "color": "#FF8000",
+    "drivers": ["Lando Norris", "Oscar Piastri"],
+    "championships": 8,
+    "base": "Woking, UK",
+    "carImage": "https://media.formula1.com/image/upload/c_lfill,w_3392/q_auto/v1740000000/common/f1/2025/mclaren/2025mclarencarright.webp"
+  },
+  {
+    "name": "Mercedes",
+    "color": "#27F4D2",
+    "drivers": ["George Russell", "Kimi Antonelli"],
+    "championships": 8,
+    "base": "Brackley, UK",
+    "carImage": "https://media.formula1.com/image/upload/c_lfill,w_3392/q_auto/v1740000000/common/f1/2025/mercedes/2025mercedescarright.webp"
+  },
+  {
+    "name": "Aston Martin",
+    "color": "#229971",
+    "drivers": ["Fernando Alonso", "Lance Stroll"],
+    "championships": 0,
+    "base": "Silverstone, UK",
+    "carImage": "https://media.formula1.com/image/upload/c_lfill,w_3392/q_auto/v1740000000/common/f1/2025/astonmartin/2025astonmartincarright.webp"
+  },
+  {
+    "name": "Alpine",
+    "color": "#FF87BC",
+    "drivers": ["Pierre Gasly", "Franco Colapinto"],
+    "championships": 2,
+    "base": "Enstone, UK",
+    "carImage": "https://media.formula1.com/image/upload/c_lfill,w_3392/q_auto/v1740000000/common/f1/2025/alpine/2025alpinecarright.webp"
+  },
+  {
+    "name": "Haas F1 Team",
+    "color": "#B6BABD",
+    "drivers": ["Esteban Ocon", "Oliver Bearman"],
+    "championships": 0,
+    "base": "Kannapolis, USA",
+    "carImage": "https://media.formula1.com/image/upload/c_lfill,w_3392/q_auto/v1740000000/common/f1/2025/haas/2025haascarright.webp"
+  },
+  {
+    "name": "Racing Bulls",
+    "color": "#6692FF",
+    "drivers": ["Liam Lawson", "Isack Hadjar"],
+    "championships": 0,
+    "base": "Faenza, Italy",
+    "carImage": "https://media.formula1.com/image/upload/c_lfill,w_3392/q_auto/v1740000000/common/f1/2025/rb/2025rbcarright.webp"
+  },
+  {
+    "name": "Williams",
+    "color": "#64C4FF",
+    "drivers": ["Alexander Albon", "Carlos Sainz"],
+    "championships": 9,
+    "base": "Grove, UK",
+    "carImage": "https://media.formula1.com/image/upload/c_lfill,w_3392/q_auto/v1740000000/common/f1/2025/williams/2025williamscarright.webp"
+  },
+  {
+    "name": "Kick Sauber",
+    "color": "#52E252",
+    "drivers": ["Nico Hülkenberg", "Gabriel Bortoleto"],
+    "championships": 0,
+    "base": "Hinwil, Switzerland",
+    "carImage": "https://media.formula1.com/image/upload/c_lfill,w_3392/q_auto/v1740000000/common/f1/2025/kicksauber/2025kicksaubercarright.webp"
+  }
+]

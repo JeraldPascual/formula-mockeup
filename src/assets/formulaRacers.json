@@ -1,0 +1,202 @@
+[
+  {
+    "name": "Max Verstappen",
+    "team": "Red Bull Racing",
+    "number": 1,
+    "flag": "🇳🇱",
+    "description": "Dutch multiple-time world champion, known for aggressive racecraft and consistently at the front of the field.",
+    "image": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000000/common/f1/2025/redbullracing/maxver01/2025redbullracingmaxver01right.webp",
+    "actionImage": "https://media.formula1.com/content/dam/fom-website/teams/2024/red-bull-racing.png",
+    "teamColor": "#3671C6"
+  },
+  {
+    "name": "Yuki Tsunoda",
+    "team": "Red Bull Racing",
+    "number": 22,
+    "flag": "🇯🇵",
+    "description": "Japanese driver known for aggressive overtaking and entertaining wheel-to-wheel battles.",
+    "image": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000000/common/f1/2025/redbullracing/yuktsu01/2025redbullracingyuktsu01right.webp",
+    "actionImage": "https://media.formula1.com/content/dam/fom-website/teams/2024/red-bull-racing.png",
+    "teamColor": "#3671C6"
+  },
+  {
+    "name": "Charles Leclerc",
+    "team": "Ferrari",
+    "number": 16,
+    "flag": "🇲🇨",
+    "description": "Monégasque driver and former race-winner for Ferrari, renowned for qualifying speed and race-leading pace.",
+    "image": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000000/common/f1/2025/ferrari/chalec01/2025ferrarichalec01right.webp",
+    "actionImage": "https://media.formula1.com/content/dam/fom-website/teams/2024/ferrari.png",
+    "teamColor": "#E8002D"
+  },
+  {
+    "name": "Lewis Hamilton",
+    "team": "Ferrari",
+    "number": 44,
+    "flag": "🇬🇧",
+    "description": "Seven-time world champion, highly experienced, and one of F1's most successful drivers in history.",
+    "image": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000000/common/f1/2025/ferrari/lewham01/2025ferrarilewham01right.webp",
+    "actionImage": "https://media.formula1.com/content/dam/fom-website/teams/2024/ferrari.png",
+    "teamColor": "#E8002D"
+  },
+  {
+    "name": "Lando Norris",
+    "team": "McLaren",
+    "number": 4,
+    "flag": "🇬🇧",
+    "description": "British driver known for strong qualifying and racecraft; one of the sport's prominent young stars.",
+    "image": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000000/common/f1/2025/mclaren/lannor01/2025mclarenlannor01right.webp",
+    "actionImage": "https://media.formula1.com/content/dam/fom-website/teams/2024/mclaren.png",
+    "teamColor": "#FF8000"
+  },
+  {
+    "name": "Oscar Piastri",
+    "team": "McLaren",
+    "number": 81,
+    "flag": "🇦🇺",
+    "description": "Australian driver and former junior categories champion, now a consistent front-running contender at McLaren.",
+    "image": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000000/common/f1/2025/mclaren/oscpia01/2025mclarenoscpia01right.webp",
+    "actionImage": "https://media.formula1.com/content/dam/fom-website/teams/2024/mclaren.png",
+    "teamColor": "#FF8000"
+  },
+  {
+    "name": "George Russell",
+    "team": "Mercedes",
+    "number": 63,
+    "flag": "🇬🇧",
+    "description": "British Mercedes driver noted for precision, strong single-lap pace and consistent race performance.",
+    "image": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000000/common/f1/2025/mercedes/georus01/2025mercedesgeorus01right.webp",
+    "actionImage": "https://media.formula1.com/content/dam/fom-website/teams/2024/mercedes.png",
+    "teamColor": "#27F4D2"
+  },
+  {
+    "name": "Kimi Antonelli",
+    "team": "Mercedes",
+    "number": 12,
+    "flag": "🇮🇹",
+    "description": "Italian rookie sensation who rose quickly through junior formulas; youngest driver on the Mercedes roster in 2025.",
+    "image": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000000/common/f1/2025/mercedes/andant01/2025mercedesandant01right.webp",
+    "actionImage": "https://media.formula1.com/content/dam/fom-website/teams/2024/mercedes.png",
+    "teamColor": "#27F4D2"
+  },
+  {
+    "name": "Fernando Alonso",
+    "team": "Aston Martin",
+    "number": 14,
+    "flag": "🇪🇸",
+    "description": "Experienced two-time world champion famed for racecraft, tire management and race strategy insight.",
+    "image": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000000/common/f1/2025/astonmartin/feralo01/2025astonmartinferalo01right.webp",
+    "actionImage": "https://media.formula1.com/content/dam/fom-website/teams/2024/aston-martin.png",
+    "teamColor": "#229971"
+  },
+  {
+    "name": "Lance Stroll",
+    "team": "Aston Martin",
+    "number": 18,
+    "flag": "🇨🇦",
+    "description": "Canadian driver with years of F1 experience, providing pace and development feedback for Aston Martin.",
+    "image": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000000/common/f1/2025/astonmartin/lanstr01/2025astonmartinlanstr01right.webp",
+    "actionImage": "https://media.formula1.com/content/dam/fom-website/teams/2024/aston-martin.png",
+    "teamColor": "#229971"
+  },
+  {
+    "name": "Pierre Gasly",
+    "team": "Alpine",
+    "number": 10,
+    "flag": "🇫🇷",
+    "description": "French driver with strong racecraft and podium pedigree; a consistent points-scorer for Alpine.",
+    "image": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000000/common/f1/2025/alpine/piegas01/2025alpinepiegas01right.webp",
+    "actionImage": "https://media.formula1.com/content/dam/fom-website/teams/2024/alpine.png",
+    "teamColor": "#FF87BC"
+  },
+  {
+    "name": "Franco Colapinto",
+    "team": "Alpine",
+    "number": 43,
+    "flag": "🇦🇷",
+    "description": "Argentine driver joining Alpine, bringing fresh talent and speed from junior categories.",
+    "image": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000000/common/f1/2025/alpine/fracol01/2025alpinefracol01right.webp",
+    "actionImage": "https://media.formula1.com/content/dam/fom-website/teams/2024/alpine.png",
+    "teamColor": "#FF87BC"
+  },
+  {
+    "name": "Esteban Ocon",
+    "team": "Haas F1 Team",
+    "number": 31,
+    "flag": "🇫🇷",
+    "description": "French driver with solid F1 experience, moved to Haas for 2025 to bring stability and racecraft.",
+    "image": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000000/common/f1/2025/haas/estoco01/2025haasestoco01right.webp",
+    "actionImage": "https://media.formula1.com/content/dam/fom-website/teams/2024/haas-f1-team.png",
+    "teamColor": "#B6BABD"
+  },
+  {
+    "name": "Oliver Bearman",
+    "team": "Haas F1 Team",
+    "number": 87,
+    "flag": "🇬🇧",
+    "description": "Young British driver promoted to Haas in 2025 after success in junior categories and as an F1 junior driver.",
+    "image": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000000/common/f1/2025/haas/olibea01/2025haasolibea01right.webp",
+    "actionImage": "https://media.formula1.com/content/dam/fom-website/teams/2024/haas-f1-team.png",
+    "teamColor": "#B6BABD"
+  },
+  {
+    "name": "Liam Lawson",
+    "team": "Racing Bulls",
+    "number": 30,
+    "flag": "🇳🇿",
+    "description": "New Zealand driver racing for Racing Bulls in the 2025 season.",
+    "image": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000000/common/f1/2025/racingbulls/lialaw01/2025racingbullslialaw01right.webp",
+    "actionImage": "https://media.formula1.com/content/dam/fom-website/teams/2024/rb.png",
+    "teamColor": "#6692FF"
+  },
+  {
+    "name": "Isack Hadjar",
+    "team": "Racing Bulls",
+    "number": 6,
+    "flag": "🇫🇷",
+    "description": "French rookie with an impressive junior résumé, stepping into a full F1 race seat in 2025.",
+    "image": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000000/common/f1/2025/rb/isahad01/2025rbisahad01right.webp",
+    "actionImage": "https://media.formula1.com/content/dam/fom-website/teams/2024/rb.png",
+    "teamColor": "#6692FF"
+  },
+  {
+    "name": "Alexander Albon",
+    "team": "Williams",
+    "number": 23,
+    "flag": "🇹🇭",
+    "description": "Thai-British driver with strong race experience and a reliable points-scorer for Williams.",
+    "image": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000000/common/f1/2025/williams/alealb01/2025williamsalealb01right.webp",
+    "actionImage": "https://media.formula1.com/content/dam/fom-website/teams/2024/williams.png",
+    "teamColor": "#64C4FF"
+  },
+  {
+    "name": "Carlos Sainz",
+    "team": "Williams",
+    "number": 55,
+    "flag": "🇪🇸",
+    "description": "Spanish driver and former Ferrari race-winner, brought to Williams to add experience and race pace.",
+    "image": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000000/common/f1/2025/williams/carsai01/2025williamscarsai01right.webp",
+    "actionImage": "https://media.formula1.com/content/dam/fom-website/teams/2024/williams.png",
+    "teamColor": "#64C4FF"
+  },
+  {
+    "name": "Nico Hülkenberg",
+    "team": "Kick Sauber",
+    "number": 27,
+    "flag": "🇩🇪",
+    "description": "Veteran German driver known for strong qualifying and race craft; brings experience to Kick Sauber.",
+    "image": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000000/common/f1/2025/kicksauber/nichul01/2025kicksaubernichul01right.webp",
+    "actionImage": "https://media.formula1.com/content/dam/fom-website/teams/2024/kick-sauber.png",
+    "teamColor": "#52E252"
+  },
+  {
+    "name": "Gabriel Bortoleto",
+    "team": "Kick Sauber",
+    "number": 5,
+    "flag": "🇧🇷",
+    "description": "Brazilian rookie who progressed rapidly through the junior categories and joined Kick Sauber for 2025.",
+    "image": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000000/common/f1/2025/kicksauber/gabbor01/2025kicksaubergabbor01right.webp",
+    "actionImage": "https://media.formula1.com/content/dam/fom-website/teams/2024/kick-sauber.png",
+    "teamColor": "#52E252"
+  }
+]
