@@ -1,47 +1,39 @@
 import { Link } from "react-router-dom";
+import { FaXTwitter, FaInstagram, FaFacebookF, FaYoutube } from "react-icons/fa6";
 
 export const Footer = () => {
   const sponsors = [
-    {
-      name: "Rolex",
-      category: "Timing Partner",
-      gradient: "from-amber-400 to-yellow-600"
-    },
-    {
-      name: "Aramco",
-      category: "Global Partner",
-      gradient: "from-green-400 to-emerald-600"
-    },
-    {
-      name: "Heineken",
-      category: "Official Beer",
-      gradient: "from-green-500 to-green-700"
-    },
-    {
-      name: "DHL",
-      category: "Logistics Partner",
-      gradient: "from-yellow-400 to-red-600"
-    },
-    {
-      name: "Pirelli",
-      category: "Tyre Partner",
-      gradient: "from-yellow-400 to-yellow-600"
-    },
-    {
-      name: "AWS",
-      category: "Cloud Partner",
-      gradient: "from-orange-400 to-orange-600"
-    },
+    { name: "TAG Heuer", color: "#BA0C2F" },
+    { name: "Aramco", color: "#00843D" },
+    { name: "Heineken", color: "#00A441" },
+    { name: "DHL", color: "#FFCC00" },
+    { name: "Pirelli", color: "#FDD503" },
+    { name: "AWS", color: "#FF9900" },
+    { name: "LVMH", color: "#C19A6B" },
+    { name: "Lenovo", color: "#E2231A" },
+    { name: "Qatar Airways", color: "#5C0A2B" },
+    { name: "MSC", color: "#004494" },
+    { name: "Crypto.com", color: "#002D74" },
+    { name: "Salesforce", color: "#00A1E0" },
   ];
 
-  // Additional tech partners for infinite scroll
   const techPartners = [
-    'Ferrari', 'Mercedes', 'Red Bull Racing', 'McLaren', 'Aston Martin',
-    'Alpine', 'Williams', 'Alfa Romeo', 'Haas', 'RB',
-    'Petronas', 'Shell', 'ExxonMobil', 'Honda', 'Renault', 'Brembo'
-  ];
-
-  return (
+    { name: 'Ferrari', color: '#DC0000' },
+    { name: 'Mercedes', color: '#00D2BE' },
+    { name: 'Red Bull', color: '#0600EF' },
+    { name: 'McLaren', color: '#FF8700' },
+    { name: 'Aston Martin', color: '#006F62' },
+    { name: 'Alpine', color: '#0090FF' },
+    { name: 'Williams', color: '#005AFF' },
+    { name: 'Haas', color: '#FFFFFF' },
+    { name: 'Petronas', color: '#00D2BE' },
+    { name: 'Shell', color: '#FBCE07' },
+    { name: 'ExxonMobil', color: '#FF1E32' },
+    { name: 'Honda', color: '#E40521' },
+    { name: 'Renault', color: '#FFF500' },
+    { name: 'Brembo', color: '#ED1C24' },
+    { name: 'Alfa Romeo', color: '#900000' },
+  ];  return (
     <footer className="bg-zinc-950 border-t border-zinc-800 mt-16">
       {/* Main Footer Content */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 py-12">
@@ -57,21 +49,42 @@ export const Footer = () => {
               The official home of Formula 1. Experience the pinnacle of motorsport racing.
             </p>
             <div className="flex gap-4">
-              {['twitter', 'instagram', 'facebook', 'youtube'].map((social) => (
-                <a
-                  key={social}
-                  href={`#${social}`}
-                  className="w-10 h-10 rounded-full bg-zinc-900 hover:bg-red-600 flex items-center justify-center transition-all duration-200 group"
-                  aria-label={social}
-                >
-                  <span className="text-white text-sm group-hover:scale-110 transition-transform">
-                    {social === 'twitter' && '𝕏'}
-                    {social === 'instagram' && '📷'}
-                    {social === 'facebook' && '👍'}
-                    {social === 'youtube' && '▶️'}
-                  </span>
-                </a>
-              ))}
+              <a
+                href="https://twitter.com/f1"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 rounded-full bg-zinc-900 hover:bg-red-600 flex items-center justify-center transition-all duration-200 group border border-zinc-800 hover:border-red-600"
+                aria-label="Twitter/X"
+              >
+                <FaXTwitter className="text-white text-lg group-hover:scale-110 transition-transform" />
+              </a>
+              <a
+                href="https://instagram.com/f1"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 rounded-full bg-zinc-900 hover:bg-gradient-to-br hover:from-purple-600 hover:to-pink-500 flex items-center justify-center transition-all duration-200 group border border-zinc-800 hover:border-transparent"
+                aria-label="Instagram"
+              >
+                <FaInstagram className="text-white text-lg group-hover:scale-110 transition-transform" />
+              </a>
+              <a
+                href="https://facebook.com/Formula1"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 rounded-full bg-zinc-900 hover:bg-[#1877F2] flex items-center justify-center transition-all duration-200 group border border-zinc-800 hover:border-[#1877F2]"
+                aria-label="Facebook"
+              >
+                <FaFacebookF className="text-white text-lg group-hover:scale-110 transition-transform" />
+              </a>
+              <a
+                href="https://youtube.com/f1"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 rounded-full bg-zinc-900 hover:bg-red-600 flex items-center justify-center transition-all duration-200 group border border-zinc-800 hover:border-red-600"
+                aria-label="YouTube"
+              >
+                <FaYoutube className="text-white text-xl group-hover:scale-110 transition-transform" />
+              </a>
             </div>
           </div>
 
@@ -147,73 +160,47 @@ export const Footer = () => {
             <p className="text-gray-400 text-sm">Powering the pinnacle of motorsport</p>
           </div>
 
-          {/* Brand sponsors infinite scroll - Left to Right */}
-          <div className="mb-8 overflow-hidden">
-            <div className="text-center mb-4">
+          {/* Brand Partners Grid */}
+          <div className="mb-8">
+            <div className="text-center mb-6">
               <div className="text-gray-600 text-xs uppercase tracking-wider font-bold">Brand Partners</div>
             </div>
-
-            <div className="relative">
-              {/* Gradient overlays for fade effect */}
-              <div className="absolute left-0 top-0 bottom-0 w-20 bg-gradient-to-r from-zinc-950 to-transparent z-10"></div>
-              <div className="absolute right-0 top-0 bottom-0 w-20 bg-gradient-to-l from-zinc-950 to-transparent z-10"></div>
-
-              {/* Scrolling animation - Left to Right */}
-              <div className="flex animate-scroll-reverse">
-                {/* First set of sponsors */}
-                {sponsors.map((sponsor, index) => (
-                  <span
-                    key={`${sponsor.name}-1-${index}`}
-                    className={`text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-black uppercase tracking-tight bg-gradient-to-r ${sponsor.gradient} bg-clip-text text-transparent hover:opacity-80 transition-opacity cursor-pointer whitespace-nowrap px-8 md:px-12 lg:px-16 flex-shrink-0`}
-                  >
-                    {sponsor.name}
-                  </span>
-                ))}
-                {/* Duplicate set for seamless loop */}
-                {sponsors.map((sponsor, index) => (
-                  <span
-                    key={`${sponsor.name}-2-${index}`}
-                    className={`text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-black uppercase tracking-tight bg-gradient-to-r ${sponsor.gradient} bg-clip-text text-transparent hover:opacity-80 transition-opacity cursor-pointer whitespace-nowrap px-8 md:px-12 lg:px-16 flex-shrink-0`}
-                  >
-                    {sponsor.name}
-                  </span>
-                ))}
-              </div>
+            <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12 lg:gap-16">
+              {sponsors.map((sponsor, index) => (
+                <div
+                  key={index}
+                  className="text-white text-2xl md:text-3xl lg:text-4xl font-black uppercase tracking-tight transition-colors cursor-pointer"
+                  style={{
+                    '--hover-color': sponsor.color
+                  }}
+                  onMouseEnter={(e) => e.currentTarget.style.color = sponsor.color}
+                  onMouseLeave={(e) => e.currentTarget.style.color = 'white'}
+                >
+                  {sponsor.name}
+                </div>
+              ))}
             </div>
           </div>
 
-          {/* Tech partners infinite scroll - Right to Left */}
-          <div className="pt-8 border-t border-zinc-800/50 overflow-hidden">
-            <div className="text-center mb-4">
+          {/* Technology Partners Grid */}
+          <div className="pt-8 border-t border-zinc-800/50">
+            <div className="text-center mb-6">
               <div className="text-gray-600 text-xs uppercase tracking-wider font-bold">Technology Partners</div>
             </div>
-
-            <div className="relative">
-              {/* Gradient overlays for fade effect */}
-              <div className="absolute left-0 top-0 bottom-0 w-20 bg-gradient-to-r from-zinc-950 to-transparent z-10"></div>
-              <div className="absolute right-0 top-0 bottom-0 w-20 bg-gradient-to-l from-zinc-950 to-transparent z-10"></div>
-
-              {/* Scrolling animation - Right to Left */}
-              <div className="flex animate-scroll">
-                {/* First set of partners */}
-                {techPartners.map((partner, index) => (
-                  <span
-                    key={`${partner}-1-${index}`}
-                    className="text-gray-500 text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-semibold hover:text-red-500 transition-colors cursor-pointer whitespace-nowrap px-6 md:px-8 lg:px-12 flex-shrink-0"
-                  >
-                    {partner}
-                  </span>
-                ))}
-                {/* Duplicate set for seamless loop */}
-                {techPartners.map((partner, index) => (
-                  <span
-                    key={`${partner}-2-${index}`}
-                    className="text-gray-500 text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-semibold hover:text-red-500 transition-colors cursor-pointer whitespace-nowrap px-6 md:px-8 lg:px-12 flex-shrink-0"
-                  >
-                    {partner}
-                  </span>
-                ))}
-              </div>
+            <div className="flex flex-wrap justify-center items-center gap-6 md:gap-8 lg:gap-10">
+              {techPartners.map((partner, index) => (
+                <div
+                  key={index}
+                  className="text-gray-500 text-lg md:text-xl lg:text-2xl font-semibold transition-colors cursor-pointer"
+                  style={{
+                    '--hover-color': partner.color
+                  }}
+                  onMouseEnter={(e) => e.currentTarget.style.color = partner.color}
+                  onMouseLeave={(e) => e.currentTarget.style.color = 'rgb(107 114 128)'}
+                >
+                  {partner.name}
+                </div>
+              ))}
             </div>
           </div>
         </div>

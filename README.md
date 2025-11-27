@@ -54,7 +54,7 @@ src/
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Node.js 18+ 
+- Node.js 18+
 - npm or yarn
 
 ### Installation
@@ -123,7 +123,7 @@ The website follows the official Formula 1 design language:
 ## 📱 Responsive Breakpoints
 
 - **Mobile:** < 640px
-- **Tablet:** 640px - 1024px  
+- **Tablet:** 640px - 1024px
 - **Desktop:** 1024px - 1280px
 - **Large Desktop:** > 1280px
 

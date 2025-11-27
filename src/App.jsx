@@ -1,6 +1,4 @@
-
 import { Index } from "./pages/index";
-
 export const App = () => {
   return (
     <Index />
